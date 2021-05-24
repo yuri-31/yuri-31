@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #e5959f;
+    opacity: 0.8;
+
+}
+
+.top-icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    margin: 0px 10px;
+
+}
+
+.menu-icon {
+    display:none;
+    color: white;
+    font-size: 40px;
+    float: right;
+    line-height: 50px;
+    margin: 0px 15px;
+    
+}
+
+header h2{
+    margin: 0px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+
+.menu-wrapper {
+    flex: auto;
+    text-align: center;
+}
+
+.menu-wrapper a {
+    color: #686868;
+    width: 20%;
+    float: left;
+    flex: auto;
+    text-decoration: none;
+    line-height: 40px;
+    background-color: rgba(255,255,255,0.7);
+    display: block;
+    border: 2px solid white;
+    font-size: 13px;
+    flex-direction: column;
+}
+
+.menu-wrapper a:hover {
+    background: white;
+    transition: 0.5s;
+}
+
+.menu-wrapper p {
+    display: inline;
+}
+.top-wrapper {
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/tree.jpg);
+    background-size: cover;
+}
+
+.top-wrapper .container {
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.top-message {
+    color: #ffff;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.top-txt {
+    color: #ffff;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.contact-form {
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgba(104,104,104,0.1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+input, textarea {
+    border: 1px solid #686868;
+    width: 600px;
+    border-radius:5px;
+    padding: 7px;
+}
+
+textarea {
+    height: 90px;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    color: #686868;
+    font-size: 13px;
+    
+}
+
+.submit-button {
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    position:relative;
+    left: 200px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(229,149,159,0.7);
+    box-shadow: 0px 5px rgb(200,101,113);
+}
+
+.submit-button:hover {
+    background-color: rgba(229,149,159,1.0);
+    cursor: pointer;
+}
+
+.submit-button:active {
+    box-shadow:none;
+    position:relative;
+    top: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(229,149,159,0.7)
+}
+
+footer p {
+    padding: 0px 70px;
+    line-height: 60px;
+    color: #686868;
+    font-weight: bold;
+    font-size: 15px;
+}
